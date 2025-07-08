@@ -19,8 +19,8 @@
 // Magazine for the Miecz submachinegun
 
 /obj/item/ammo_box/magazine/miecz
-	name = "\improper Miecz submachinegun magazine"
-	desc = "A standard size magazine for Miecz submachineguns, holds twenty eight rounds."
+	name = "\improper Miecz magazine"
+	desc = "A classic, ribbed, 28 round magazine for the Miecz."
 
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/szot_dynamica/ammo.dmi'
 	icon_state = "miecz_mag"

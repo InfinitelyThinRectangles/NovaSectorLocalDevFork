@@ -1,10 +1,9 @@
 // Rapid firing scary military grade weapon firing .27-54 Cesarzowa
 
 /obj/item/gun/ballistic/automatic/miecz
-	name = "\improper Miecz Support Weapon"
-	desc = "A short barrel weapon riding the line between submachine gun and a rifle. \
-		Features plasticized furniture and a maintenance manual in the stock... \
-		Which just doesn't seem to come out no matter how hard you pull."
+	name = "\improper Miecz Rifle"
+	desc = "A short-barrel autorifle of classic design, with some ability to pierce body armour. \
+		"
 
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/szot_dynamica/guns_48.dmi'
 	icon_state = "miecz"
@@ -43,12 +42,9 @@
 	spread = 1
 	recoil = 0.5
 
-	lore_blurb = "The Miecz is one of the staple weapons of the frontier; simple, effective, and based on \
-		a figuratively 'tested' design, though you couldn't be sure which one.<br><br>\
-		It fires the .27-54 'intermediary' caliber round, if only to dodge classification as a rifle. \
-		Overall, it's decently accurate, lightweight, reeks of gun-grease, \
-		and might feel a little more homely then the next gun over... allegedly, anyway.<br><br>\
-		The wood-substitute material is known to have various side-effects. Contact your local health department before use."
+	lore_blurb = "Chambered in .27-54, the Miecz is a modern descendant of one of the earliest mass-produced automatic rifles Humanity ever designed, and it's still going strong to this day. \
+		Lightweight, respectably accurate, somewhat armour-piercing, infallibly reliable and comparatively simple to manufacture and maintain, the Miecz is a frontier staple."
+
 
 /obj/item/gun/ballistic/automatic/miecz/Initialize(mapload)
 	. = ..()
